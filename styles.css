@@ -55,7 +55,7 @@ p { margin: 0; }
 .hero h1 { color: white; }
 .hero-lede { max-width: 580px; margin-top: 28px; font-size: 1.22rem; line-height: 1.65; color: #e6f0f4; }
 .hero-actions { margin-top: 34px; display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
-.hero-portrait { position: relative; grid-column: 2; grid-row: 1; background-image: linear-gradient(90deg, #294d60 0%, transparent 20%), url('/practitioner.jpg'); background-size: cover; background-position: center center; }
+.hero-portrait { position: relative; grid-column: 2; grid-row: 1; background-image: linear-gradient(90deg, #294d60 0%, transparent 20%), url('practitioner.jpg'); background-size: cover; background-position: center center; }
 .hero-portrait::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(13,41,64,.16), transparent 45%); }
 
 .intro-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 86px; align-items: center; }
@@ -76,7 +76,7 @@ p { margin: 0; }
 .card-symbol { display: block; color: #4f86a5; font-size: .78rem; font-weight: 700; letter-spacing: .14em; }
 .service-card h3 { margin-top: 25px; }
 .service-card p { margin-top: 11px; color: var(--muted); font-size: .95rem; }
-.quote-band { min-height: 320px; display: flex; align-items: center; background: linear-gradient(90deg, rgba(7,34,53,.91), rgba(7,34,53,.36)), url('/calm-horizon.jpg') center/cover; color: white; }
+.quote-band { min-height: 320px; display: flex; align-items: center; background: linear-gradient(90deg, rgba(7,34,53,.91), rgba(7,34,53,.36)), url('calm-horizon.jpg') center/cover; color: white; }
 .quote-inner { padding-block: 68px; }
 .quote-inner blockquote { max-width: 720px; color: white; font-size: clamp(2rem, 4vw, 3.25rem); font-style: italic; }
 .quote-inner > p { margin-top: 28px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.6); width: max-content; font-size: .77rem; text-transform: uppercase; letter-spacing: .22em; }
@@ -85,7 +85,7 @@ p { margin: 0; }
 .reason-grid svg { flex: none; color: var(--ink-soft); }
 .reason-icon, .principle-icon, .fact-icon { flex: none; color: var(--ink-soft); font-family: Georgia, 'Times New Roman', serif; font-size: 1.8rem; line-height: 1; }
 .reason-grid p { margin-top: 10px; color: var(--muted); }
-.cta-band { background: linear-gradient(90deg, rgba(9,38,58,.95), rgba(9,38,58,.79)), url('/calm-horizon.jpg') center 62%/cover; color: white; }
+.cta-band { background: linear-gradient(90deg, rgba(9,38,58,.95), rgba(9,38,58,.79)), url('calm-horizon.jpg') center 62%/cover; color: white; }
 .cta-inner { padding-block: 68px; display: flex; align-items: center; justify-content: space-between; gap: 60px; }
 .cta-inner h2 { color: white; }
 .cta-inner div > p:last-child { max-width: 680px; margin-top: 15px; color: #d5e4eb; }
@@ -110,7 +110,7 @@ p { margin: 0; }
 .principles h3 { margin-top: 28px; }
 .principles p { margin-top: 10px; color: var(--muted); }
 
-.contact-hero { padding-block: 92px 148px; background: linear-gradient(110deg, rgba(11,39,59,.97), rgba(21,68,94,.88)), url('/calm-horizon.jpg') center/cover; color: white; }
+.contact-hero { padding-block: 92px 148px; background: linear-gradient(110deg, rgba(11,39,59,.97), rgba(21,68,94,.88)), url('calm-horizon.jpg') center/cover; color: white; }
 .contact-intro { max-width: 900px; }
 .contact-intro p:last-child { max-width: 690px; margin-top: 25px; color: #d6e6ed; font-size: 1.14rem; }
 .contact-layout { margin-top: -80px; position: relative; display: grid; grid-template-columns: .76fr 1.24fr; gap: 72px; align-items: start; }
